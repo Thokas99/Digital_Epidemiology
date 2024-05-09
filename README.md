@@ -1,4 +1,4 @@
-# Digital_Epidemiology-
+# Digital Epidemiology
 QCB Digital_Epidemiology 2023/2024
 
 This is based on the article:
