@@ -26,10 +26,4 @@ We have replicated the stochastic and deterministic simulations of the SIRS mode
 
 ### 2. Network Simulation
 
-Additionally, we have conducted network simulations to model the spread of RSV within Valencia. By representing individuals as nodes and their interactions as edges in a network, we aim to capture the complex patterns of disease transmission in the region.
-
-## Citation
-
-If you use any part of this code or data in your work, please cite the original paper:
-
-Arenas, A. J., González-Parra, G., & Moraño, J. A. (2009). Stochastic modeling of the transmission of respiratory syncytial virus (RSV) in the region of Valencia, Spain. Biosystems, 96(3), 206-212.
+Additionally, we have conducted network simulations to model the spread of RSV. By representing individuals as nodes and their interactions as edges in a network, we aim to capture the complex patterns of disease transmission.
