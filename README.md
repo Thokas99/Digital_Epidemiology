@@ -44,13 +44,6 @@ We have replicated the stochastic and deterministic simulations of the SIRS mode
 Additionally, we have conducted network simulations to model the spread of RSV. By representing individuals as nodes and their interactions as edges in a network, we aim to capture the complex patterns of disease transmission.
 
 ## Repository Structure
-
-### data/
-This directory contains all the datasets used in the project, including:
-- Historical RSV incidence data in Valencia.
-- Demographic data for the region of Valencia.
-- Contact network data for the network simulations.
-
 ### scripts/
 This directory includes the primary scripts for simulations and analysis, such as:
 - `work_in_progress`: Script for stochastic SIRS model simulation.
