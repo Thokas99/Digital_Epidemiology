@@ -46,9 +46,9 @@ Additionally, we have conducted network simulations to model the spread of RSV. 
 ## Repository Structure
 ### [scripts](scripts)
 This directory includes the primary scripts for simulations and analysis, such as:
-- `work_in_progress`: Script for stochastic SIRS model simulation.
-- `work_in_progress`: Script for deterministic SIRS model simulation.
-- `work_in_progress`: Script for network-based RSV transmission simulation.
+- [`scripts/Final_Euler_Maruyama_method_TRASMISSION.py`](scripts/Final_Euler_Maruyama_method_TRASMISSION.py): Script for stochastic SIRS model simulation.
+- [`scripts/Final_method_SOLVE_IVP.py`](scripts/Final_method_SOLVE_IVP.py): Script for deterministic SIRS model simulation.
+- [`scripts/NetworkX_simulation.ipynb`](): Notebook for network RSV transmission simulation.
 
 ### [results](results)
 This directory stores the results of simulations and analyses, including:
