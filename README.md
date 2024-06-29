@@ -7,7 +7,6 @@
 3. [Objectives](#objectives)
 4. [Methodology](#methodology)
     1. [Stochastic and Deterministic Simulations](#stochastic-and-deterministic-simulations)
-    2. [Network Simulation](#network-simulation)
 5. [Repository Structure](#repository-structure)
     1. [data/](#data)
     2. [scripts/](#scripts)
@@ -47,8 +46,8 @@ Additionally, we have conducted network simulations to model the spread of RSV. 
 ### [scripts](scripts)
 This directory includes the primary scripts for simulations and analysis, such as:
 - [`Final_Euler_Maruyama_method_TRASMISSION.py`](scripts/Final_Euler_Maruyama_method_TRASMISSION.py): Script for stochastic SIRS model simulation.
+- [`Final_Euler_Maruyama_method_BIRTH.py`](scripts/Final_Euler_Maruyama_method_BIRTH.py): Script for stochastic SIRS model simulation.
 - [`Final_method_SOLVE_IVP.py`](scripts/Final_method_SOLVE_IVP.py): Script for deterministic SIRS model simulation.
-- [`NetworkX_simulation.ipynb`](scripts/NetworkX_simulation.ipynb): Notebook for network RSV transmission simulation.
 
 ### [results](results)
 This directory stores the results of simulations and analyses, including:
