@@ -54,10 +54,6 @@ This directory stores the results of simulations and analyses, including:
 - Plots and graphs generated from the simulations.
 - Summary statistics and output files from the models.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## References
 
 - Arenas, A. J., González-Parra, G., & Moraño, J. A. (2009). Stochastic modeling of the transmission of respiratory syncytial virus (RSV) in the region of Valencia, Spain. Biosystems, 96(3), 206-212.
