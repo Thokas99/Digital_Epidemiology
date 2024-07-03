@@ -45,9 +45,9 @@ Additionally, we have conducted network simulations to model the spread of RSV. 
 ## Repository Structure
 ### [scripts](scripts)
 This directory includes the primary scripts for simulations and analysis, such as:
-- [`Final_Euler_Maruyama_method_TRASMISSION.py`](scripts/Final_Euler_Maruyama_method_TRASMISSION.py): Script for stochastic SIRS model simulation.
-- [`Final_Euler_Maruyama_method_BIRTH.py`](scripts/Final_Euler_Maruyama_method_BIRTH.py): Script for stochastic SIRS model simulation.
-- [`Final_method_SOLVE_IVP.py`](scripts/Final_method_SOLVE_IVP.py): Script for deterministic SIRS model simulation.
+- [``](): Script for stochastic SIRS model simulation.
+- [``](): Script for stochastic SIRS model simulation.
+- [``](): Script for deterministic SIRS model simulation.
 
 ### [results](results)
 This directory stores the results of simulations and analyses, including:
