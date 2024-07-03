@@ -26,10 +26,7 @@ This repository contains code and resources related to a digital epidemiology pr
 
 ## Objectives
 
-The primary objectives of this project are:
-
-1. To reproduce the stochastic and deterministic simulations of the SIRS (Susceptible-Infectious-Recovered-Susceptible) model as described in the aforementioned paper.
-2. To implement network simulation techniques to study the spread of RSV.
+The primary objectives of this project are: to reproduce the stochastic and deterministic simulations of the SIRS (Susceptible-Infectious-Recovered-Susceptible) model as described in the aforementioned paper.
 
 ## Methodology
 
