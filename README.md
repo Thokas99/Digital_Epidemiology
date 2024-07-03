@@ -34,10 +34,6 @@ The primary objectives of this project are: to reproduce the stochastic and dete
 
 We have replicated the stochastic and deterministic simulations of the SIRS model described by Arenas et al. in their study. Our simulations aim to understand the dynamics of RSV transmission and the impact of different parameters on disease spread.
 
-### Network Simulation
-
-Additionally, we have conducted network simulations to model the spread of RSV. By representing individuals as nodes and their interactions as edges in a network, we aim to capture the complex patterns of disease transmission.
-
 ## Repository Structure
 ### [scripts](scripts)
 This directory includes the primary scripts for simulations and analysis, such as:
