@@ -6,10 +6,10 @@
 2. [Authors](#authors)
 3. [Objectives](#objectives)
 4. [Methodology](#methodology)
-    1. [Stochastic and Deterministic Simulations](#stochastic-and-deterministic-simulations)
+    a. [Stochastic and Deterministic Simulations](#stochastic-and-deterministic-simulations)
 5. [Repository Structure](#repository-structure)
-    1. [scripts/](#scripts)
-    2. [results/](#results)
+    a. [scripts/](#scripts)
+    b. [results/](#results)
 6. [References](#references)
 
 ## Overview
