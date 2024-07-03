@@ -8,8 +8,8 @@
 4. [Methodology](#methodology)
     1. [Stochastic and Deterministic Simulations](#stochastic-and-deterministic-simulations)
 5. [Repository Structure](#repository-structure)
-    1. [scripts/](#scripts)
-    2. [results/](#results)
+    1. [Scripts](#scripts)
+    2. [Results](#results)
 6. [References](#references)
 
 ## Overview
