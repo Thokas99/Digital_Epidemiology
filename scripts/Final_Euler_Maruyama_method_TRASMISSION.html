@@ -7587,7 +7587,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="SIRS">SIRS<a class="anchor-link" href="#SIRS">¶</a></h2>
+<h2 id="SIRS-with-Perturbation-Trasmission">SIRS with Perturbation Trasmission<a class="anchor-link" href="#SIRS-with-Perturbation-Trasmission">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7660,6 +7660,40 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Statistisc">Statistisc<a class="anchor-link" href="#Statistisc">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Explanation-of-R0-in-an-SIRS-Model">Explanation of R0 in an SIRS Model<a class="anchor-link" href="#Explanation-of-R0-in-an-SIRS-Model">¶</a></h3><p>In epidemiology, ( R_0 ) is a critical parameter that measures the contagiousness or transmissibility of an infectious disease within a population.</p>
+<p>Specifically, in the context of an SIRS (Susceptible-Infectious-Recovered-Susceptible) model, ( R_0 ) represents the average number of secondary infections produced by a single infectious individual in a fully susceptible population.</p>
+<h4 id="Key-Points:">Key Points:<a class="anchor-link" href="#Key-Points:">¶</a></h4><ul>
+<li><p><strong>Definition</strong>: ( R_0 ) is defined as the ratio of the baseline transmission rate ( \beta ) to the sum of the recovery rate ( \gamma ) and the rate at which recovered individuals lose immunity ( \nu ).</p>
+</li>
+<li><p><strong>Formula</strong>:</p>
+<p>[
+R_0 = \frac{\beta}{\gamma + \nu}
+]</p>
+<p>where:</p>
+<ul>
+<li>( \beta ) is the transmission rate of the disease.</li>
+<li>( \gamma ) is the recovery rate (the rate at which infected individuals recover and move to the recovered state).</li>
+<li>( \nu ) is the rate at which recovered individuals lose immunity and become susceptible again.</li>
+</ul>
+</li>
+<li><p><strong>Interpretation</strong>:</p>
+<ul>
+<li>If ( R_0 &gt; 1 ), the disease can spread in the population.</li>
+<li>If ( R_0 &lt; 1 ), the disease will likely die out over time.</li>
+</ul>
+</li>
+</ul>
+<p>This formula succinctly captures how infectious a disease is based on its transmission dynamics and the immunity dynamics within the population.</p>
 </div>
 </div>
 </div>
