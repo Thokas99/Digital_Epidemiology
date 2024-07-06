@@ -32,7 +32,7 @@ The primary objectives of this project are: to reproduce the stochastic and dete
 
 ### Stochastic and Deterministic Simulations
 
-We have replicated the stochastic and deterministic simulations of the SIRS model described by Arenas et al. in their study. Our simulations aim to understand the dynamics of RSV transmission and the impact of different parameters on disease spread.
+We have replicated the stochastic and deterministic simulations of the SIRS model described by Arenas et al. in their study. All code is implemented in python. Stochastic simulation using the Euler Maruyama method and Deterministic usning RK45 from solve.ivp
 
 ## Repository Structure
 ### [scripts](scripts)
