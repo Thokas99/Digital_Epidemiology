@@ -33,7 +33,7 @@ The primary objectives of this project are: to reproduce the stochastic and dete
 ### Stochastic and Deterministic Simulations
 
 We have replicated the stochastic and deterministic simulations of the SIRS model described by "_Arenas et al._" in their study. 
-All code is implemented in **python**. The stochastic simulations use the Euler Maruyama method and The deterministic one use RK45 from _solve.ivp_
+All code is implemented in **python**. The stochastic simulations use the Euler Maruyama method and The deterministic one use RK45 from `solve_ivp` function of the `scipy.integrate` module
 
 ## Repository Structure
 ### [Scripts](scripts)
