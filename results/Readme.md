@@ -1,1 +1,1 @@
-Immages from the scrips
+Images from the scrips
