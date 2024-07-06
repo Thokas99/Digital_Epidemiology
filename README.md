@@ -36,13 +36,20 @@ We have replicated the stochastic and deterministic simulations of the SIRS mode
 All code is implemented in **python**. The stochastic simulations use the Euler Maruyama method and The deterministic one use RK45 from _solve.ivp_
 
 ## Repository Structure
-### [scripts](scripts)
+### [Scripts](scripts)
 This directory includes the primary scripts for simulations and analysis, such as:
 - [`Final_Euler_Maruyama_method_BIRTH`](scripts/Final_Euler_Maruyama_method_BIRTH.ipynb): Script for stochastic SIRS model simulation with birth perturbation.
 - [`Final_Euler_Maruyama_method_TRASMISSION`](scripts/Final_Euler_Maruyama_method_TRASMISSION.ipynb): Script for stochastic SIRS model simulation trasmission perturbation.
 - [`Final_method_SOLVE_IVP`](scripts/Final_method_SOLVE_IVP.ipynb): Script for deterministic, RK45, SIRS model simulation.
+#### Libraries used
+- **NumPy**: A fundamental package for scientific computing with Python.
+  - Documentation: [NumPy](https://numpy.org/doc/)
+- **Matplotlib**: A comprehensive library for creating static, animated, and interactive visualizations in Python.
+  - Documentation: [Matplotlib](https://matplotlib.org/stable/contents.html)
+- **SciPy**: A Python-based ecosystem of open-source software for mathematics, science, and engineering. In this project, we use the `solve_ivp` function from the `scipy.integrate` module to solve the system of differential equations.
+  - Documentation: [SciPy](https://docs.scipy.org/doc/scipy/)
 
-### [results](results)
+### [Results](results)
 This directory stores the results of simulations and analyses, including:
 - Plots and graphs generated from the simulations.
 - Summary statistics and output files from the models.
